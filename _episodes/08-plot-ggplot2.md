@@ -463,7 +463,6 @@ code to modify!
 > > Here a possible solution: 
 > > `xlab()` and `ylab()` set labels for the x and y axes, respectively
 > > The axis title, text and ticks are attributes of the theme and must be modified within a `theme()` call.
-
 > > 
 > > ~~~
 > > ggplot(data = gapminder, mapping = aes(x = continent, y = lifeExp, fill = continent)) +
