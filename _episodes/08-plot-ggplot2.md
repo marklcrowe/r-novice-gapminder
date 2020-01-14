@@ -309,7 +309,7 @@ variables and their visual representation.
 >
 > > ## Solution to challenge 4a
 > >
-> > Here a possible solution: 
+> > Here is a possible solution: 
 > > Notice that the `color` argument is supplied outside of the `aes()` function. 
 > > This means that it applies to all data points on the graph and is not related to 
 > > a specific variable.
