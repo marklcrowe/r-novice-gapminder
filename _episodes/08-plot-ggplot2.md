@@ -335,12 +335,12 @@ variables and their visual representation.
 >
 > > ## Solution to challenge 4b
 > >
-> > Here a possible solution: 
+> > Here is a possible solution: 
 > > Notice that supplying the `color` argument inside the `aes()` functions enables you to 
 > > connect it to a certain variable. The `shape` argument, as you can see, modifies all
 > > data points the same way (it is outside the `aes()` call) while the `color` argument which
 > > is placed inside the `aes()` call modifies a point's color based on its continent value.
-
+> >
 > >
 > > ~~~
 > > ggplot(data = gapminder, mapping = aes(x = gdpPercap, y = lifeExp, color = continent)) +
